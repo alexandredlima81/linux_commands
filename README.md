@@ -6,24 +6,24 @@
 `sudo who -Ha`
 
 # Exibe informações detalhadas sobre os usuários logados
-\# sudo w
+`sudo w`
 
-# Mostra apenas os nomes dos usuários logados
-\# sudo users
+### Mostra apenas os nomes dos usuários logados
+`sudo users`
 
-# Lista as últimas tentativas de login, mostrando apenas os que ainda estão logados
-\# sudo last -a | grep -i 'still logged in'
+### Lista as últimas tentativas de login, mostrando apenas os que ainda estão logados
+`sudo last -a | grep -i 'still logged in'`
 
-# Exibe conexões SSH ativas
-\# sudo ss | grep -i ssh
+### Exibe conexões SSH ativas
+`sudo ss | grep -i ssh`
 
-# Mostra conexões estabelecidas com o daemon SSH
-\# sudo netstat -tnpa | grep -i 'ESTABLISHED.*sshd'
+### Mostra conexões estabelecidas com o daemon SSH
+`sudo netstat -tnpa | grep -i 'ESTABLISHED.*sshd'
 
-# Lista processos relacionados ao daemon SSH
-\# sudo ps -axfj | grep sshd
+### Lista processos relacionados ao daemon SSH
+`sudo ps -axfj | grep sshd`
 
-### VERIFICANDO AS INFORMAÇÕES DE LOG DE AUTENTICAÇÃO NO UBUNTU \ DEBIAN SERVER ###
+## VERIFICANDO AS INFORMAÇÕES DE LOG DE AUTENTICAÇÃO NO UBUNTU \ DEBIAN SERVER ###
 
 # Filtra logs de autenticação para entradas relacionadas ao SSH
 \# sudo cat /var/log/auth.log | grep ssh
