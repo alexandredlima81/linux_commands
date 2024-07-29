@@ -1,7 +1,7 @@
 ## LINUX_COMMANDS
 
 
-# Verificando Informações de  usuários logados remotamente no Ubuntu \ Debian server
+## Verificando Informações de  usuários logados remotamente no Ubuntu \ Debian server
 ### Lista os usuários atualmente logados no sistema
 \- `# sudo who -Ha`
 
