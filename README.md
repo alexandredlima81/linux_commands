@@ -3,7 +3,7 @@
 
 ## VERIFICANDO INFORMAÇÕES DE USUÁRIOS LOGADOS
 ### Lista os usuários atualmente logados no sistema
-- `# sudo who -Ha`
+- `sudo who -Ha`
 
 # Exibe informações detalhadas sobre os usuários logados
 \# sudo w
