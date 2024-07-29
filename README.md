@@ -8,7 +8,7 @@
 # Exibe informações detalhadas sobre os usuários logados
 `sudo w`
 
-### Mostra apenas os nomes dos usuários logados
+# Mostra apenas os nomes dos usuários logados
 `sudo users`
 
 ### Lista as últimas tentativas de login, mostrando apenas os que ainda estão logados
