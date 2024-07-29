@@ -25,23 +25,23 @@
 
 ## VERIFICANDO AS INFORMAÇÕES DE LOG DE AUTENTICAÇÃO NO UBUNTU \ DEBIAN SERVER ###
 
-# Filtra logs de autenticação para entradas relacionadas ao SSH
+### Filtra logs de autenticação para entradas relacionadas ao SSH
 `sudo cat /var/log/auth.log | grep ssh`
 
-# Filtra logs do sistema para entradas relacionadas ao SSH
+### Filtra logs do sistema para entradas relacionadas ao SSH
 `sudo cat /var/log/syslog | grep ssh`
 
-### VERIFICANDO TENTATIVAS DE LOGIN FALHADAS ###
+##VERIFICANDO TENTATIVAS DE LOGIN FALHADAS ###
 
-# Lista tentativas de login falhadas
+### Lista tentativas de login falhadas
 sudo cat /var/log/auth.log | grep 'Failed password'`
 
-### MONITORANDO ALTERAÇÕES DE ARQUIVOS DE CONFIGURAÇÃO ###
+## MONITORANDO ALTERAÇÕES DE ARQUIVOS DE CONFIGURAÇÃO ###
 
-# Mostra arquivos de configuração modificados recentemente
+### Mostra arquivos de configuração modificados recentemente
 sudo find /etc -type f -mtime -1
 
-### VERIFICANDO USO DE RECURSOS DO SISTEMA ###
+## VERIFICANDO USO DE RECURSOS DO SISTEMA ###
 
 # Exibe a utilização de CPU e memória pelos processos
 top
