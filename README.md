@@ -1,7 +1,7 @@
 # linux_commands
 
 
-<p style="color:red;">VERIFICANDO INFORMAÇÕES DE USUÁRIOS LOGADOS REMOTAMENTE NO UBUNTU \ DEBIAN SERVER</p>
+# VERIFICANDO INFORMAÇÕES DE USUÁRIOS LOGADOS REMOTAMENTE NO UBUNTU \ DEBIAN SERVER
 # Lista os usuários atualmente logados no sistema
 sudo who -Ha
 
