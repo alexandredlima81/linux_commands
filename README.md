@@ -1,4 +1,4 @@
-## LINUX_COMMANDS
+## COMANDOS LINUX
 
 
 ## VERIFICANDO INFORMAÇÕES DE USUÁRIOS LOGADOS
@@ -18,7 +18,7 @@
 `sudo ss | grep -i ssh`
 
 ### Mostra conexões estabelecidas com o daemon SSH
-`sudo netstat -tnpa | grep -i 'ESTABLISHED.*sshd'
+`sudo netstat -tnpa | grep -i 'ESTABLISHED.*sshd'`
 
 ### Lista processos relacionados ao daemon SSH
 `sudo ps -axfj | grep sshd`
@@ -26,15 +26,15 @@
 ## VERIFICANDO AS INFORMAÇÕES DE LOG DE AUTENTICAÇÃO NO UBUNTU \ DEBIAN SERVER ###
 
 # Filtra logs de autenticação para entradas relacionadas ao SSH
-\# sudo cat /var/log/auth.log | grep ssh
+`sudo cat /var/log/auth.log | grep ssh`
 
 # Filtra logs do sistema para entradas relacionadas ao SSH
-\# sudo cat /var/log/syslog | grep ssh
+`sudo cat /var/log/syslog | grep ssh`
 
 ### VERIFICANDO TENTATIVAS DE LOGIN FALHADAS ###
 
 # Lista tentativas de login falhadas
-sudo cat /var/log/auth.log | grep 'Failed password'
+sudo cat /var/log/auth.log | grep 'Failed password'`
 
 ### MONITORANDO ALTERAÇÕES DE ARQUIVOS DE CONFIGURAÇÃO ###
 
