@@ -11,16 +11,16 @@
 # Mostra apenas os nomes dos usuários logados
 `sudo users`
 
-### Lista as últimas tentativas de login, mostrando apenas os que ainda estão logados
+# Lista as últimas tentativas de login, mostrando apenas os que ainda estão logados
 `sudo last -a | grep -i 'still logged in'`
 
-### Exibe conexões SSH ativas
+# Exibe conexões SSH ativas
 `sudo ss | grep -i ssh`
 
-### Mostra conexões estabelecidas com o daemon SSH
+# Mostra conexões estabelecidas com o daemon SSH
 `sudo netstat -tnpa | grep -i 'ESTABLISHED.*sshd'
 
-### Lista processos relacionados ao daemon SSH
+# Lista processos relacionados ao daemon SSH
 `sudo ps -axfj | grep sshd`
 
 ## VERIFICANDO AS INFORMAÇÕES DE LOG DE AUTENTICAÇÃO NO UBUNTU \ DEBIAN SERVER ###
