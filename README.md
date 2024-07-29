@@ -1,8 +1,7 @@
 ## LINUX_COMMANDS
 
 
-## VERIFICANDO INFORMAÇÕES DE USUÁRIOS LOGADOS\
-UBUNTU \ DEBIAN SERVER
+## VERIFICANDO INFORMAÇÕES DE USUÁRIOS LOGADOS
 ### Lista os usuários atualmente logados no sistema
 \- `# sudo who -Ha`
 
