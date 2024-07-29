@@ -5,7 +5,7 @@
 # Lista os usuários atualmente logados no sistema
 sudo who -Ha
 
-Exibe informações detalhadas sobre os usuários logados
+# Exibe informações detalhadas sobre os usuários logados
 sudo w
 
 # Mostra apenas os nomes dos usuários logados
